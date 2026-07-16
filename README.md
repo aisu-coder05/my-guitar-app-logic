@@ -1,11 +1,11 @@
 # 🎸 My Guitar App Logic 🎶
 
-স্বাগতম! এটি আমার তৈরি প্রথম কোটলিন লজিক প্রজেক্ট, যা আমি সরাসরি আমার মোবাইল থেকে গিটহাবে আপলোড করেছি। 😎📱
+Welcome! This is my very first Kotlin logic project, successfully uploaded to GitHub directly from my mobile device. 😎📱
 
-## 🚀 এই প্রজেক্টে কী কী আছে?
-* **কোর্টলিন বেসিক লজিক** (Kotlin Basics)
-* **গিটার কর্ড ট্রান্সপোজার** (Guitar Chord Transposer)
-* **লিরিক্স স্ক্রোলিং লজিক** (Lyrics Logic)
+## 🚀 Key Features inside this project:
+* **Kotlin Basics & Syntax** (Getting started)
+* **Guitar Chord Transposer** (Logic for changing chords easily)
+* **Lyrics Scrolling Logic** (Handling smooth scrolling for lyrics)
 
 ---
 *Created with ❤️ by Aishwariya Par*
