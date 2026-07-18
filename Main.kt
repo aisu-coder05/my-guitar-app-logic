@@ -1,14 +1,12 @@
 fun main() {
-    // val cannot be changed (LOCKED)
-    val songName: String = "Perfect" 
+    println("--- Guitar App Started ---")
     
-    // var CAN be changed (OPEN)
-    var currentChord: String = "G Major"
-    println("Playing Song: $songName")
-    println("Started with Chord: $currentChord")
-    
-    // Changing the chord from G Major to C Major
-    currentChord = "C Major" 
-    println("Next Chord changed to: $currentChord")
+    // Calling our custom function/switch
+    playChordSound("G Major")
+    playChordSound("C Major")
 }
 
+// This is our custom function (The Magic Button)
+fun playChordSound(chordName: String) {
+    println("🎵 Playing the beautiful sound of: $chordName")
+}
