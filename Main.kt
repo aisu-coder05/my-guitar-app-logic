@@ -1,12 +1,20 @@
+
 fun main() {
-    println("--- Guitar App Started ---")
+    println("--- Smart Guitar App ---")
     
-    // Calling our custom function/switch
+    // Testing our smart switch
     playChordSound("G Major")
     playChordSound("C Major")
+    playChordSound("F Major") // Let's see what happens here!
 }
 
-// This is our custom function (The Magic Button)
+// Our custom function with If-Else logic
 fun playChordSound(chordName: String) {
-    println("🎵 Playing the beautiful sound of: $chordName")
+    if (chordName == "G Major") {
+        println("🔊 Playing G Major Sound: Tinggg! 🎸")
+    } else if (chordName == "C Major") {
+        println("🔊 Playing C Major Sound: Tanggg! 🎸")
+    } else {
+        println("❌ Audio for $chordName is not added yet!")
+    }
 }
