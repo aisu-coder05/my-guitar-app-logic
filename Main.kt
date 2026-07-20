@@ -1,20 +1,13 @@
-
 fun main() {
-    println("--- Smart Guitar App ---")
+    println("--- 🎸 AISU'S GUITAR APP LOGIC COMPLETE 🎸 ---")
     
-    // Testing our smart switch
-    playChordSound("G Major")
-    playChordSound("C Major")
-    playChordSound("F Major") // Let's see what happens here!
-}
-
-// Our custom function with If-Else logic
-fun playChordSound(chordName: String) {
-    if (chordName == "G Major") {
-        println("🔊 Playing G Major Sound: Tinggg! 🎸")
-    } else if (chordName == "C Major") {
-        println("🔊 Playing C Major Sound: Tanggg! 🎸")
-    } else {
-        println("❌ Audio for $chordName is not added yet!")
-    }
+    // Now calling sounds directly from our new GuitarSounds file!
+    println("User presses G button:")
+    playGChord() 
+    
+    println("\nUser presses C button:")
+    playCChord()
+    
+    println("\nUser presses Am button:")
+    playAmChord()
 }
